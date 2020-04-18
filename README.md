@@ -1,5 +1,9 @@
 # optimizer
+Benchmark circuits have been converted from Quipper ASCII syntax to ProjectQ syntax.
+The script to do so is also provided in the root directory.
+Negative controls are currently treated as positive, as they are not supported in ProjectQ and would otherwise require sorrounding controls by more X gates. Primary purpose is to measure runtime of circuit optimizers.
 
+#### -- Original README --
 This repository contains benchmark quantum circuits before and after
 optimization.
 
